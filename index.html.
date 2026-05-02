@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geed Soor - Professional Store</title>
+    <style>
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; background-color: #f9f9f9; color: #333; }
+        header { background-color: #fff; padding: 20px; text-align: center; border-bottom: 1px solid #eee; }
+        .container { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
+        
+        /* Card-ka Geedka */
+        .plant-card { 
+            background: white; 
+            width: 300px; 
+            margin: 15px; 
+            border-radius: 5px; 
+            overflow: hidden; 
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            text-align: left;
+        }
+        .plant-card img { width: 100%; height: 350px; object-fit: cover; }
+        .info { padding: 20px; }
+        .tag { color: #2d4a22; font-size: 12px; font-weight: bold; text-transform: uppercase; margin-bottom: 10px; display: block; }
+        .title { font-size: 18px; margin: 5px 0; font-weight: 500; }
+        .price { font-size: 16px; color: #555; margin-top: 10px; }
+        .on-sale { color: #d9534f; font-weight: bold; margin-right: 10px; }
+        
+        /* Badanka Dalbashada */
+        .order-btn { 
+            display: block; 
+            width: 100%; 
+            background-color: #2d4a22; 
+            color: white; 
+            text-align: center; 
+            padding: 12px 0; 
+            text-decoration: none; 
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 style="letter-spacing: 2px;">GEED SOOR</h1>
+</header>
+
+<div class="container">
+    <div class="plant-card">
+        <img src="https://images.unsplash.com/photo-1593482892290-f54927ae1bf6?auto=format&fit=crop&w=500&q=60" alt="Lilac Bush">
+        <div class="info">
+            <span class="tag">On Sale</span>
+            <div class="title">Bloomerang Lilac Bush</div>
+            <div class="price">
+                <span class="on-sale">$149</span> <del>$159</del>
+            </div>
+            <a href="#" class="order-btn">DALBO HADDA</a>
+        </div>
+    </div>
+
+    <div class="plant-card">
+        <img src="https://images.unsplash.com/photo-1597055181300-e3633a207519?auto=format&fit=crop&w=500&q=60" alt="Heart Orchid">
+        <div class="info">
+            <span class="tag" style="color: #4CAF50;">Pet-Friendly</span>
+            <div class="title">Heart Orchid</div>
+            <div class="price">From $129</div>
+            <a href="#" class="order-btn">DALBO HADDA</a>
+        </div>
+    </div>
+</div>
+
+<footer style="text-align: center; padding: 40px; color: #888;">
+    <p>Judgement-Free Service | Geed Soor 2026</p>
+</footer>
+
+</body>
+</html>
